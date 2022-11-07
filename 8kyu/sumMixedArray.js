@@ -12,3 +12,7 @@ function sumMix(x) {
   });
   return sum;
 }
+
+function sumMix(x) {
+  return x.reduce((a, b) => +a + +b, 0);
+}
